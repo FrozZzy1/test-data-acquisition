@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-acquisition"
+version = "0.1.0"
+description = ""
+authors = ["FrozZzy1 <frozzzy71@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+sqlalchemy = "^2.0.32"
+environs = "^11.0.0"
+alembic = "^1.13.2"
+asyncpg = "^0.29.0"
+passlib = "^1.7.4"
+bcrypt = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
